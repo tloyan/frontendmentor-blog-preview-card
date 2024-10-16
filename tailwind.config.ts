@@ -11,20 +11,6 @@ const config: Config = {
       fontFamily: {
         sans: 'var(--font-figtree)'
       },
-      // fontSize: {
-      //   '2xl': ['1.5rem', {
-      //     lineHeight: '150%',
-      //     fontWeight: '800'
-      //   }],
-      //   base: ['1rem', {
-      //     lineHeight: '150%',
-      //     fontWeight: '500'
-      //   }],
-      //   sm: ['.875rem', {
-      //     lineHeight: '150%',
-      //     fontWeight: '500'
-      //   }]
-      // },
       colors: {
         yellow: "#F4D04E",
         gray: {
