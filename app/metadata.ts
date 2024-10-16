@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Bloc Preview Card | Frontend Mentor Challenge | Thomas Loyan',
-  description: 'Frontend Mentor Challenge: Bloc Preview Card built with Typescript, Next.js, Tailwind CSS.',
+  description: 'Frontend Mentor Challenge: Bloc Preview Card built with Typescript, Next.js, Tailwind CSS, Framer Motion.',
   generator: 'Next.js',
   alternates: {
     canonical: 'https://bloc-preview-card.tloyan.com'
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     'JavaScript',
     'TypeScript',
     'Tailwind CSS',
+    'Framer Motion',
     'Responsive Design',
     'Responsive web design',
     'Frontend developer',
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   publisher: 'Thomas Loyan',
   openGraph: {
     title: 'Bloc Preview Card | Frontend Mentor Challenge | Thomas Loyan',
-    description: "Frontend Mentor Challenge: Bloc Preview Card built with Typescript, Next.js, Tailwind CSS.",
+    description: "Frontend Mentor Challenge: Bloc Preview Card built with Typescript, Next.js, Tailwind CSS, Framer Motion.",
     url: "https://bloc-preview-card.tloyan.com/",
     siteName: "Bloc Preview Card | Frontend Mentor Challenge | Thomas Loyan",
     images: [{
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Bloc Preview Card | Frontend Mentor Challenge | Thomas Loyan',
-    description: 'Frontend Mentor Challenge: Bloc Preview Card built with Typescript, Next.js, Tailwind CSS.',
+    description: 'Frontend Mentor Challenge: Bloc Preview Card built with Typescript, Next.js, Tailwind CSS, Framer Motion.',
     creator: '@thomasloyan',
     images: {
       url: 'https://bloc-preview-card.tloyan.com/preview.jpg',
