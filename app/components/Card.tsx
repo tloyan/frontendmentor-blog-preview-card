@@ -1,4 +1,4 @@
-import * as motion from "framer-motion/client"
+import * as motion from "framer-motion/client";
 import Image from "next/image";
 
 export interface CardType {
@@ -32,18 +32,18 @@ export function Card({
   });
   return (
     <motion.div
-      className="w-full max-w-[327px] space-y-6 rounded-[20px] border border-gray-950 bg-white p-6 shadow-[8px_8px_0_#000000] sm:max-w-96"
+      className="w-full max-w-96 space-y-6 rounded-[20px] border border-gray-950 bg-white p-6 shadow-[8px_8px_0_#000000]"
       initial={{ scale: 0 }}
       animate={{ rotate: 360, scale: 1 }}
       transition={{
         type: "spring",
         stiffness: 260,
-        damping: 20
+        damping: 20,
       }}
     >
-      <div className="relative h-[200px] w-full overflow-hidden rounded-[10px]">
+      <div className="h-[200px] overflow-hidden rounded-[10px]">
         <Image
-          className="absolute ml-[-31px] max-w-none sm:ml-0"
+          className="h-full w-full object-cover"
           src={img.src}
           alt="illustration"
           height={200}

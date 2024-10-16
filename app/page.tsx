@@ -19,8 +19,8 @@ const data: CardType = {
 
 export default function Home() {
   return (
-    <main className="min-h-full bg-yellow px-4 w-full h-full">
-      <div className="w-full h-full flex items-center justify-center">
+    <main className="h-full min-h-full w-full bg-yellow px-6">
+      <div className="flex h-full w-full items-center justify-center">
         <Card {...data} />
       </div>
     </main>
