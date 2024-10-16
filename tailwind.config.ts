@@ -11,25 +11,25 @@ const config: Config = {
       fontFamily: {
         sans: 'var(--font-figtree)'
       },
-      fontSize: {
-        '2xl': ['1.5rem', {
-          lineHeight: '150%',
-          fontWeight: '800'
-        }],
-        base: ['1rem', {
-          lineHeight: '150%',
-          fontWeight: '500'
-        }],
-        sm: ['.875rem', {
-          lineHeight: '150%',
-          fontWeight: '500'
-        }]
-      },
+      // fontSize: {
+      //   '2xl': ['1.5rem', {
+      //     lineHeight: '150%',
+      //     fontWeight: '800'
+      //   }],
+      //   base: ['1rem', {
+      //     lineHeight: '150%',
+      //     fontWeight: '500'
+      //   }],
+      //   sm: ['.875rem', {
+      //     lineHeight: '150%',
+      //     fontWeight: '500'
+      //   }]
+      // },
       colors: {
         yellow: "#F4D04E",
         gray: {
           950: "#111111",
-          500: "6B6B6B6"
+          500: "#6B6B6B"
         },
         white: "#FFFFFF"
       },
