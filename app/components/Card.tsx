@@ -1,3 +1,4 @@
+import * as motion from "framer-motion/client"
 import Image from "next/image";
 
 export interface CardType {
@@ -30,7 +31,16 @@ export function Card({
     year: "numeric",
   });
   return (
-    <div className="w-full max-w-[327px] space-y-6 rounded-[20px] border border-gray-950 bg-white p-6 shadow-[8px_8px_0_#000000] sm:max-w-96">
+    <motion.div
+      className="w-full max-w-[327px] space-y-6 rounded-[20px] border border-gray-950 bg-white p-6 shadow-[8px_8px_0_#000000] sm:max-w-96"
+      initial={{ scale: 0 }}
+      animate={{ rotate: 360, scale: 1 }}
+      transition={{
+        type: "spring",
+        stiffness: 260,
+        damping: 20
+      }}
+    >
       <div className="relative h-[200px] w-full overflow-hidden rounded-[10px]">
         <Image
           className="absolute ml-[-31px] max-w-none sm:ml-0"
@@ -70,6 +80,6 @@ export function Card({
         </div>
         <p className="text-sm font-bold">{author.name}</p>
       </div>
-    </div>
+    </motion.div>
   );
 }
